@@ -7,7 +7,7 @@ from pynput import keyboard #pip install pynput
 from tkinter import * 
 import platform
 if platform.system() == 'Windows':
-  from win10toast import ToastNotifier 
+  from win10toast import ToastNotifier #pip install win10toast
 
 
 isStart = False
